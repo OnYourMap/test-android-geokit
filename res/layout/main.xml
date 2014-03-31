@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+    <com.oym.android.GeoKitView 
+	  android:id="@+id/view_map"
+	  android:layout_width="fill_parent"
+	  android:layout_height="fill_parent" 
+      android:layout_weight="1"     
+	  android:background="@null"
+	  android:layout_x="0px"
+      android:layout_y="0px" />
+    
+	<ImageButton
+      android:id="@+id/imagebutton_zoomin"
+      android:src="@drawable/zoomin" 
+      android:background="@null"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:width="36px"
+      android:height="36px"
+      android:layout_gravity="bottom|right"         
+	  android:paddingRight="70px"
+      android:paddingBottom="10px"  
+    />
+
+	<ImageButton
+      android:id="@+id/imagebutton_zoomout"
+      android:src="@drawable/zoomout" 
+      android:background="@null"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:width="18px"
+      android:height="18px"
+      android:layout_gravity="bottom|right"         
+	  android:paddingRight="20px"
+      android:paddingBottom="10px"  
+    />
+    
+	<!--ImageButton
+      android:id="@+id/imagebutton_speak"
+      android:src="@drawable/speak" 
+      android:background="@null"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:width="18px"
+      android:height="18px"
+      android:layout_gravity="bottom|right"         
+	  android:paddingRight="120px"
+      android:paddingBottom="10px"  
+    /-->
+        
+    <!--TextView
+        android:id="@+id/textview_debug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="1000px"
+        android:height="50px"
+        android:layout_gravity="top|left"         
+	    android:paddingLeft="2px"
+        android:paddingTop="2px"  
+    /-->
+
+      
+      
+</FrameLayout>

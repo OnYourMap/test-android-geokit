@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/map_type_plan"
+          android:icon="@null"
+          android:title="@string/map_type_plan" />
+          
+    <item android:id="@+id/map_type_sat"
+          android:icon="@null"
+          android:title="@string/map_type_sat" />
+
+    <item android:id="@+id/map_type_hybrid"
+          android:icon="@null"
+          android:title="@string/map_type_hybrid" />
+
+    <item android:id="@+id/route_planner"
+          android:icon="@null"
+          android:title="@string/route_planner" />
+           
+</menu>

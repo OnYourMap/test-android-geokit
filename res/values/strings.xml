@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OYM Demo</string>
+    <string name="app_name_test">OYM Test</string>
+    <string name="map_type_plan">Plan</string>
+    <string name="map_type_sat">Satellite</string>
+    <string name="map_type_hybrid">Hybrid</string>
+    <string name="route_planner">Route Planner</string>    
+    <string name="locate_me">Locate Me</string>    
+</resources>

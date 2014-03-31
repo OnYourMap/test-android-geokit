@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<integer name="renderMode">1</integer>
+	<!--  <integer name="tileSize">256</integer>
+	<string name="roadmapType">png_std</string>-->
+	<integer name="tileSize">512</integer>
+	<string name="roadmapType">png_hd</string>
+	<string name="satelliteType">jpeg_sat</string>
+	<string name="hybridType">jpeg_shy</string>
+	<!-- <string name="oymURL">http://maps.onyourmap.com/oym</string>
+	<string name="appKEY">android</string>
+	<string name="appReferer">http://android.maps.onyourmap.com</string> --> 
+	<string name="oymURL">http://edsa-staging.onyourmap.com/oym</string>
+	<string name="appKEY">android</string>
+	<string name="appReferer">http://android.onyourmap.com</string>
+	<bool name="showFPS">false</bool>
+	<bool name="zoomScrollCentered">false</bool>
+	<bool name="loadTexDuringFling">true</bool>
+</resources>
