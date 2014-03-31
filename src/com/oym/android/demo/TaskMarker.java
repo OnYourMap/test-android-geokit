@@ -25,7 +25,7 @@ public class TaskMarker extends View {
 		rectanglePaint.setStyle(Paint.Style.FILL);
 		rectanglePaint.setARGB(160, 255, 74, 18);
 		rectanglePaint.setAntiAlias(true);
-		RectF rect = new RectF(0, 0, 80, 40);
+		RectF rect = new RectF(0, 0, 85, 40);
 		canvas.drawRoundRect(rect, 10, 10, rectanglePaint);
 		
 		Paint textPaint = new Paint();
@@ -36,22 +36,24 @@ public class TaskMarker extends View {
 		textPaint.setAntiAlias(true);
 		canvas.drawText("1014", 10, 25, textPaint);
 		
+		Paint p = new Paint();
+        Bitmap b = BitmapFactory.decodeResource(getResources(), R.drawable.bottom_corner_marker);
+        p.setColor(Color.RED);
+        canvas.drawBitmap(b, 51, 32, p);
+        
 		Paint paintOuter = new Paint();
 		paintOuter.setStyle(Paint.Style.FILL);
 		paintOuter.setColor(Color.WHITE);
 		paintOuter.setAntiAlias(true);
-		canvas.drawCircle(80, 20, 20, paintOuter);
+		canvas.drawCircle(85, 23, 23, paintOuter);
 		Paint paintInner = new Paint();
 		paintInner.setStyle(Paint.Style.FILL);
 		paintInner.setARGB(255, 255, 74, 18);
 		paintInner.setAntiAlias(true);
-		canvas.drawCircle(80, 20, 17, paintInner);
+		canvas.drawCircle(85, 23, 17, paintInner);
 		
 		
-		Paint p = new Paint();
-        Bitmap b = BitmapFactory.decodeResource(getResources(), R.drawable.bottom_corner_marker);
-        p.setColor(Color.RED);
-        canvas.drawBitmap(b, 47, 35, p);
+		
 	}
 
 }

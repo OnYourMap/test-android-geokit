@@ -140,7 +140,7 @@ public class DemoActivity extends Activity {
 	    View tmv = new TaskMarker(getApplicationContext());
 	    
 	    View theView = tmv;
-	    parent.addView(theView);
+	    //parent.addView(theView);
 	    
 		locOverlay = new com.oym.android.overlay.Annotation(
 				new Position(Position.WGS84, x, y),
@@ -148,7 +148,7 @@ public class DemoActivity extends Activity {
 				false, 
 				"annotation_end", 
 				"",
-				theView, 100, 100, 
+				theView, 120, 100, 
 				getApplicationContext()
 		);
 		gk.addOverlay(locOverlay, 1);
